@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Particle Simulation</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #1a1a1a;
+            font-family: monospace;
+        }
+
+        #container {
+            text-align: center;
+        }
+
+        canvas {
+            border: 2px solid #333;
+            background-color: #000;
+            display: block;
+            margin: 0 auto;
+        }
+
+        #info {
+            color: #fff;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <canvas id="canvas" width="400" height="400"></canvas>
+        <div id="info">
+            <span id="fps">FPS: 0</span> |
+            <span id="particles">Particles: 0</span>
+        </div>
+    </div>
+    <script type="module" src="./dist/main.js"></script>
+</body>
+</html>

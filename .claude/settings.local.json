@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bun init:*)",
+      "Bash(curl:*)",
+      "Bash(bash)",
+      "Bash(~/.bun/bin/bun init:*)",
+      "Bash(~/.bun/bin/bun test:*)",
+      "Bash(~/.bun/bin/bun:*)",
+      "Bash(pkill:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}

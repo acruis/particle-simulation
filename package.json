@@ -1,0 +1,17 @@
+{
+  "name": "particle-simulation",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun build src/main.ts --outdir ./dist --watch",
+    "build": "bun build src/main.ts --outdir ./dist",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
